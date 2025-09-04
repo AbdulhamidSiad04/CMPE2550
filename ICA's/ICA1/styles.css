@@ -1,0 +1,77 @@
+#title{
+text-align: center;
+background-color: lightgrey;
+padding: 20px;
+color:white;
+text-shadow: 10px,10px,gray;
+}
+
+#part1{
+    background-color: lightgray;
+}
+.part1Header{
+    text-align: center;
+}
+.ipAddress{
+    display: inline-block;
+    text-align: right;
+    width: 500px;
+}
+.getEvaluation{
+    display: inline-block;
+    text-align: right;
+    width: 520px;
+}
+.postEvaluation{
+    display: inline-block;
+    text-align: right;
+    width: 530px;
+}
+label{
+    margin: 0;
+    padding: 0;
+}
+#part2{
+    background-color: lightgray;
+}
+.part2Header{
+    text-align: center;
+}
+
+#part3{
+    background-color: lightgray;
+}
+.part3Header{
+    text-align: center;
+}
+
+#part4{
+    background-color: lightgray;
+}
+.part4Header{
+    text-align: center;
+}
+
+.NameHobby{
+    text-align: center;
+}
+
+#submitButton{
+    border: 1px solid black;
+    width: 800px;
+    
+}
+footer{
+    background-color: lightgray;
+    text-align: center; 
+}
+
+#part5{
+    background-color: lightgray;
+    text-align: center;
+}
+
+#part6{
+    background-color: lightgray;
+    text-align: center;
+}
