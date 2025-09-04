@@ -16,28 +16,32 @@
     <!--Section for part 1 server info of the client -->
     <section id="part1">
         <h2 class="part1Header">Part 1 : Server Info</h2>
-        <label for="html">Your IP Address is :</label>
-        <p class="ipAddress">Empty Reserve for Ip address</p><br>
-        <label for="html">$_GET Evaluation :</label>
-        <p class="getEvaluation">Empty Reserve for Get Evalution</p><br>
-        <label for="html">$POST Evaluation :</label>
-        <p class="postEvaluation">Empty Reserve for Post Evaluation</p>
+        <div class="part1Layout">
+            <span>Your IP Address is :</span>
+            <p class="ipAddress">Empty Reserve for Ip address</p>
+            <span>$_GET Evaluation :</span>
+            <p class="getEvaluation">Empty Reserve for Get Evalution</p>
+            <span>$_POST Evaluation :</span>
+            <p class="postEvaluation">Empty Reserve for Post Evaluation</p>
+        </div>
+       
     </section>
     <!--Section 2 for part 2 form processing of the client content-->
     <section id="part2">
         <!--will use foreach to create  unordered list later -->
         <h2 class="part2Header">Part 2 : Form Processing</h2>
-        <label for="html">$_GET Contents :</label> <br>
-        <label for="html">$POST Evaluation :</label>
+        <span>$_GET Contents :</span> <br>
+        <span>$POST Evaluation :</span>
     </section>
     <!--Section 3 for part 3  Array Generation-->
     <section id="part3">
         <h2 class="part3Header">Part 3 : Array Generation : </h2>
-        <label for="html">Array Generated : </label>
+        <span>Array Generated : </span>
     </section>
-   <!--Section 4 for part 4 form processing-->
+    <!--Section 4 for part 4 form processing-->
     <section id="part4">
         <h2 class="part4Header">Part 4 : Form Processing : </h2>
+       <div class="formCont">
         <form action="">
             <div class="NameHobby">
                 <label for="name">Name: </label>
@@ -53,23 +57,24 @@
             </div>
         </form>
 
-
+       </div>
     </section>
 
     <section id="part5">
-        <label for="html"><h3>will change later for form process inputs</h3></label>
+        <p>will change later for form process inputs</p>
     </section>
 
     <section id="part6">
-        <label for="html"><h3>will change later also for status</h3></label>
+
+        <p>will change later also for status</p>
     </section>
-     <footer>
+    <footer>
         <p>&copy; copyright 2025 by Abdulhamid Siad</p>
-       <script>
-        document.write("Last Modified :" + document.lastModified);
-       </script>
-      
-     </footer>
+        <script>
+            document.write("Last Modified :" + document.lastModified);
+        </script>
+
+    </footer>
 </body>
 
 </html>
