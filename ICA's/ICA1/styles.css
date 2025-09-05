@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-.part1Layout {
+.part1Layout,.part2Layout,.part3Layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }

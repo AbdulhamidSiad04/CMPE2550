@@ -24,40 +24,45 @@
             <span>$_POST Evaluation :</span>
             <p class="postEvaluation">Empty Reserve for Post Evaluation</p>
         </div>
-       
+
     </section>
     <!--Section 2 for part 2 form processing of the client content-->
     <section id="part2">
         <!--will use foreach to create  unordered list later -->
         <h2 class="part2Header">Part 2 : Form Processing</h2>
-        <span>$_GET Contents :</span> <br>
-        <span>$POST Evaluation :</span>
+        <div class="part2Layout">
+            <span>$_GET Contents :</span> <br>
+            <span>$POST Evaluation :</span>
+        </div>
+
     </section>
     <!--Section 3 for part 3  Array Generation-->
     <section id="part3">
         <h2 class="part3Header">Part 3 : Array Generation : </h2>
+        <div class="part3Layout">
         <span>Array Generated : </span>
+        </div>
     </section>
     <!--Section 4 for part 4 form processing-->
     <section id="part4">
         <h2 class="part4Header">Part 4 : Form Processing : </h2>
-       <div class="formCont">
-        <form action="">
-            <div class="NameHobby">
-                <label for="name">Name: </label>
-                <input type="text" name="name" id="name">
-                <br>
-                <label for="Hobby">Hobby : </label>
-                <input type="text" name="Hobby" id="Hobby">
-                <br>
-                <label for="Rate">How Much I Like It: </label>
-                <input type="range" name="Rate" id="Rate">
-                <br>
-                <button id="submitButton">Go Now !</button>
-            </div>
-        </form>
+        <div class="formCont">
+            <form action="GET">
+                <div class="NameHobby">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name">
+                    <br>
+                    <label for="Hobby">Hobby : </label>
+                    <input type="text" name="Hobby" id="Hobby">
+                    <br>
+                    <label for="Rate">How Much I Like It: </label>
+                    <input type="range" name="Rate" id="Rate">
+                    <br>
+                    <button id="submitButton">Go Now !</button>
+                </div>
+            </form>
 
-       </div>
+        </div>
     </section>
 
     <section id="part5">
